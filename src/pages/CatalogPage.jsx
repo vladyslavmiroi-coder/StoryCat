@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom'
-import novels from '../data/novels'
+import useNovels from '../hooks/useNovels'
 import './catalog.css'
 
 const CatalogPage = () => {
+  const { novels, loading } = useNovels()
+
+  if (loading) return <div>Loading...</div>
+
   return (
     <div className="catalog-wrapper">
       <h1>Каталог</h1>

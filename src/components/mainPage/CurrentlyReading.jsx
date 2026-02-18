@@ -1,16 +1,15 @@
-import novels from '../../data/novels'
-import './currentlyReading.css'
 import { Link } from 'react-router-dom'
+import './currentlyReading.css'
 
-const getRandomNovels = (count) => {
+const getRandomNovels = (novels, count) => {
   const shuffled = [...novels].sort(() => 0.5 - Math.random())
   return shuffled.slice(0, count)
 }
 
-const CurrentlyReading = () => {
-  const first = getRandomNovels(3)
-  const second = getRandomNovels(3)
-  const third = getRandomNovels(3)
+const CurrentlyReading = ({ novels }) => {
+  const first = getRandomNovels(novels, 3)
+  const second = getRandomNovels(novels, 3)
+  const third = getRandomNovels(novels, 3)
 
   return (
     <div className="reading-wrapper">

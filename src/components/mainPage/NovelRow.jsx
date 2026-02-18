@@ -1,8 +1,7 @@
-import novels from '../../data/novels'
 import { Link } from 'react-router-dom'
 import './novelRow.css'
 
-const NovelRow = () => {
+const NovelRow = ({ novels }) => {
   const visibleNovels = novels.slice(0, 8)
 
   return (
