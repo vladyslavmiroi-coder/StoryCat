@@ -2,8 +2,9 @@ import { Link } from 'react-router-dom'
 import useNovels from '../hooks/useNovels'
 import './catalog.css'
 
-const CatalogPage = () => {
-  const { novels, loading } = useNovels()
+const CatalogPage = ({ novelsOverride }) => {
+  const data = novelsOverride || useNovels()
+  const { novels, loading } = data
 
   if (loading) return <div>Loading...</div>
 

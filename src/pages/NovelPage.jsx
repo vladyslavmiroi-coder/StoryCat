@@ -2,9 +2,9 @@ import { useParams } from 'react-router-dom'
 import useNovel from '../hooks/useNovel'
 import '../components/novelPage/novelPage.css'
 
-const NovelPage = () => {
+const NovelPage = ({ novelOverride }) => {
   const { id } = useParams()
-  const { novel, loading, error } = useNovel(id)
+  const { novel, loading, error } = novelOverride || useNovel(id)
 
   if (loading) return <div>Loading...</div>
   if (error) return <div>{error}</div>

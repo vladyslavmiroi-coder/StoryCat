@@ -2,8 +2,9 @@ import useNovels from '../hooks/useNovels'
 import NovelRow from '../components/mainPage/NovelRow'
 import CurrentlyReading from '../components/mainPage/CurrentlyReading'
 
-const MainPage = () => {
-  const { novels, loading } = useNovels()
+const MainPage = ({ novelsOverride }) => {
+  const data = novelsOverride || useNovels()
+  const { novels, loading } = data
 
   if (loading) return <div>Loading...</div>
 

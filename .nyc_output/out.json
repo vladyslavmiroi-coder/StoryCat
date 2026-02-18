@@ -1,0 +1,2864 @@
+{
+  "C:/dev/storycat/src/api/baseApi.js": {
+    "path": "C:/dev/storycat/src/api/baseApi.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 17
+        },
+        "end": {
+          "line": 1,
+          "column": 66
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 16
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/api/baseApi.js"
+      ],
+      "names": [],
+      "mappings": "AAAA,KAAK,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,wBAAwB,CAAC,OAAO,CAAC,EAAE,CAAC,GAAG,CAAC;AAClE;AACA,MAAM,CAAC,OAAO,CAAC,QAAQ;"
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "a50559c03947107cbdf955163be03fd595bcab51"
+  },
+  "C:/dev/storycat/src/api/novelsApi.js": {
+    "path": "C:/dev/storycat/src/api/novelsApi.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 25
+        },
+        "end": {
+          "line": 11,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 19
+        },
+        "end": {
+          "line": 4,
+          "column": 52
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 8,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 7,
+          "column": 45
+        }
+      },
+      "4": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 30
+        }
+      },
+      "5": {
+        "start": {
+          "line": 13,
+          "column": 28
+        },
+        "end": {
+          "line": 21,
+          "column": 1
+        }
+      },
+      "6": {
+        "start": {
+          "line": 14,
+          "column": 19
+        },
+        "end": {
+          "line": 14,
+          "column": 58
+        }
+      },
+      "7": {
+        "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 18,
+          "column": 3
+        }
+      },
+      "8": {
+        "start": {
+          "line": 17,
+          "column": 4
+        },
+        "end": {
+          "line": 17,
+          "column": 38
+        }
+      },
+      "9": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": 30
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 37
+          },
+          "end": {
+            "line": 11,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 28
+          },
+          "end": {
+            "line": 13,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 42
+          },
+          "end": {
+            "line": 21,
+            "column": 1
+          }
+        },
+        "line": 13
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 2
+          },
+          "end": {
+            "line": 8,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 2
+            },
+            "end": {
+              "line": 8,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 6
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 2
+          },
+          "end": {
+            "line": 18,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 16,
+              "column": 2
+            },
+            "end": {
+              "line": 18,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 16
+      }
+    },
+    "s": {
+      "0": 11,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 11,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0
+    },
+    "b": {
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/api/novelsApi.js"
+      ],
+      "names": [],
+      "mappings": "AAAA,MAAM,CAAC,QAAQ,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC;AAChC;AACA,MAAM,CAAC,KAAK,CAAC,SAAS,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtC,CAAC,CAAC,KAAK,CAAC,QAAQ,CAAC,CAAC,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,MAAM,CAAC,CAAC;AACpD;AACA,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,QAAQ,CAAC,EAAE,CAAC,CAAC,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC,MAAM,CAAC,EAAE,CAAC,KAAK,CAAC,MAAM,CAAC,CAAC;AAC7C,CAAC,CAAC,CAAC;AACH;AACA,CAAC,CAAC,MAAM,CAAC,KAAK,CAAC,QAAQ,CAAC,IAAI,CAAC,CAAC;AAC9B,CAAC;AACD;AACA,MAAM,CAAC,KAAK,CAAC,YAAY,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC3C,CAAC,CAAC,KAAK,CAAC,QAAQ,CAAC,CAAC,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;AAC1D;AACA,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,QAAQ,CAAC,EAAE,CAAC,CAAC,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC,KAAK,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC;AACtC,CAAC,CAAC,CAAC;AACH;AACA,CAAC,CAAC,MAAM,CAAC,KAAK,CAAC,QAAQ,CAAC,IAAI,CAAC,CAAC;AAC9B,CAAC;"
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "963b78879f3f92fcfe118040df6925b09b258b2b"
+  },
+  "C:/dev/storycat/src/hooks/useNovels.js": {
+    "path": "C:/dev/storycat/src/hooks/useNovels.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 18
+        },
+        "end": {
+          "line": 25,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 30
+        },
+        "end": {
+          "line": 5,
+          "column": 42
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 32
+        },
+        "end": {
+          "line": 6,
+          "column": 46
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 28
+        },
+        "end": {
+          "line": 7,
+          "column": 42
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 8
+        }
+      },
+      "5": {
+        "start": {
+          "line": 10,
+          "column": 17
+        },
+        "end": {
+          "line": 19,
+          "column": 5
+        }
+      },
+      "6": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 7
+        }
+      },
+      "7": {
+        "start": {
+          "line": 12,
+          "column": 21
+        },
+        "end": {
+          "line": 12,
+          "column": 38
+        }
+      },
+      "8": {
+        "start": {
+          "line": 13,
+          "column": 8
+        },
+        "end": {
+          "line": 13,
+          "column": 23
+        }
+      },
+      "9": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 21
+        }
+      },
+      "10": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 25
+        }
+      },
+      "11": {
+        "start": {
+          "line": 21,
+          "column": 4
+        },
+        "end": {
+          "line": 21,
+          "column": 10
+        }
+      },
+      "12": {
+        "start": {
+          "line": 24,
+          "column": 2
+        },
+        "end": {
+          "line": 24,
+          "column": 35
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 18
+          },
+          "end": {
+            "line": 4,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 25,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 12
+          },
+          "end": {
+            "line": 9,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 18
+          },
+          "end": {
+            "line": 22,
+            "column": 3
+          }
+        },
+        "line": 9
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 17
+          },
+          "end": {
+            "line": 10,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 29
+          },
+          "end": {
+            "line": 19,
+            "column": 5
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 7,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/hooks/useNovels.js"
+      ],
+      "names": [],
+      "mappings": "AAAA,MAAM,CAAC,CAAC,CAAC,SAAS,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,KAAK,CAAC;AAC3C,MAAM,CAAC,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,SAAS,CAAC;AAC5C;AACA,KAAK,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzB,CAAC,CAAC,KAAK,CAAC,CAAC,MAAM,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC;AAC1C,CAAC,CAAC,KAAK,CAAC,CAAC,OAAO,CAAC,CAAC,UAAU,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,IAAI,CAAC;AAC9C,CAAC,CAAC,KAAK,CAAC,CAAC,KAAK,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,IAAI,CAAC;AAC1C;AACA,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC;AACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,SAAS,CAAC,CAAC;AACtC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,SAAS,CAAC,IAAI,CAAC;AACvB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,GAAG,CAAC,CAAC,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,GAAG,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,CAAC;AACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,UAAU,CAAC,KAAK,CAAC;AACzB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC;AACL;AACA,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR;AACA,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,MAAM,CAAC,CAAC,OAAO,CAAC,CAAC,KAAK,CAAC,CAAC;AACnC,CAAC;AACD;AACA,MAAM,CAAC,OAAO,CAAC,SAAS;"
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "5903e91e5f70cf018a0905f1ec44278aef1931ef"
+  },
+  "C:/dev/storycat/src/pages/CatalogPage.jsx": {
+    "path": "C:/dev/storycat/src/pages/CatalogPage.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 60,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 15
+        },
+        "end": {
+          "line": 6,
+          "column": 44
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 30
+        },
+        "end": {
+          "line": 7,
+          "column": 34
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 11
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 15
+        },
+        "end": {
+          "line": 12,
+          "column": 11
+        }
+      },
+      "5": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 59,
+          "column": 11
+        }
+      },
+      "6": {
+        "start": {
+          "line": 35,
+          "column": 111
+        },
+        "end": {
+          "line": 50,
+          "column": 12
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 20
+          },
+          "end": {
+            "line": 5,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 44
+          },
+          "end": {
+            "line": 60,
+            "column": 1
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 35,
+            "column": 84
+          },
+          "end": {
+            "line": 35,
+            "column": 85
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 111
+          },
+          "end": {
+            "line": 50,
+            "column": 12
+          }
+        },
+        "line": 35
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 15
+          },
+          "end": {
+            "line": 6,
+            "column": 44
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 15
+            },
+            "end": {
+              "line": 6,
+              "column": 29
+            }
+          },
+          {
+            "start": {
+              "line": 6,
+              "column": 33
+            },
+            "end": {
+              "line": 6,
+              "column": 44
+            }
+          }
+        ],
+        "line": 6
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 2
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 8,
+              "column": 2
+            },
+            "end": {
+              "line": 12,
+              "column": 11
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 8
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 9,
+      "2": 9,
+      "3": 9,
+      "4": 4,
+      "5": 5,
+      "6": 6
+    },
+    "f": {
+      "0": 9,
+      "1": 6
+    },
+    "b": {
+      "0": [
+        9,
+        0
+      ],
+      "1": [
+        4,
+        5
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/pages/CatalogPage.jsx"
+      ],
+      "mappings": "AAQsB;AARtB,SAAS,YAAY;AACrB,OAAO,eAAe;AACtB,OAAO;AAEP,MAAM,cAAc,CAAC,EAAE,eAAe,MAAM;AAC1C,QAAM,OAAO,kBAAkB,UAAU;AACzC,QAAM,EAAE,QAAQ,QAAQ,IAAI;AAE5B,MAAI,QAAS,QAAO,uBAAC,SAAI,0BAAL;AAAA;AAAA;AAAA;AAAA,SAAe;AAEnC,SACE,uBAAC,SAAI,WAAU,mBACb;AAAA,2BAAC,QAAG,uBAAJ;AAAA;AAAA;AAAA;AAAA,WAAW;AAAA,IAEX,uBAAC,SAAI,WAAU,cACb;AAAA,6BAAC,UAAK,WAAU,eAAc,kBAA9B;AAAA;AAAA;AAAA;AAAA,aAAgC;AAAA,MAChC,uBAAC,WAAM,MAAK,QAAO,aAAY,oBAA/B;AAAA;AAAA;AAAA;AAAA,aAAgD;AAAA,SAFlD;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,IAEA,uBAAC,SAAI,WAAU,gBACZ,iBAAO,IAAI,CAAC,UACX,uBAAC,QAAK,IAAI,UAAU,MAAM,EAAE,IAAI,WAAU,gBACxC;AAAA,6BAAC,SAAI,KAAK,MAAM,OAAO,KAAK,MAAM,QAAlC;AAAA;AAAA;AAAA;AAAA,aAAwC;AAAA,MACxC,uBAAC,OAAG,gBAAM,QAAV;AAAA;AAAA;AAAA;AAAA,aAAe;AAAA,SAF6C,MAAM,IAApE;AAAA;AAAA;AAAA;AAAA,WAGA,CACD,KANH;AAAA;AAAA;AAAA;AAAA,WAOA;AAAA,OAfF;AAAA;AAAA;AAAA;AAAA,SAgBA;AAEJ;AAEA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "0957df2ffbddd1920a5742438d8ab47148355ae9"
+  },
+  "C:/dev/storycat/src/components/mainPage/CurrentlyReading.jsx": {
+    "path": "C:/dev/storycat/src/components/mainPage/CurrentlyReading.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 24
+        },
+        "end": {
+          "line": 7,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 19
+        },
+        "end": {
+          "line": 5,
+          "column": 62
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 42
+        },
+        "end": {
+          "line": 5,
+          "column": 61
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": 34
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 25
+        },
+        "end": {
+          "line": 44,
+          "column": 1
+        }
+      },
+      "5": {
+        "start": {
+          "line": 9,
+          "column": 16
+        },
+        "end": {
+          "line": 9,
+          "column": 42
+        }
+      },
+      "6": {
+        "start": {
+          "line": 10,
+          "column": 17
+        },
+        "end": {
+          "line": 10,
+          "column": 43
+        }
+      },
+      "7": {
+        "start": {
+          "line": 11,
+          "column": 16
+        },
+        "end": {
+          "line": 11,
+          "column": 42
+        }
+      },
+      "8": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 43,
+          "column": 11
+        }
+      },
+      "9": {
+        "start": {
+          "line": 45,
+          "column": 15
+        },
+        "end": {
+          "line": 82,
+          "column": 8
+        }
+      },
+      "10": {
+        "start": {
+          "line": 45,
+          "column": 53
+        },
+        "end": {
+          "line": 82,
+          "column": 8
+        }
+      },
+      "11": {
+        "start": {
+          "line": 51,
+          "column": 39
+        },
+        "end": {
+          "line": 77,
+          "column": 10
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 24
+          },
+          "end": {
+            "line": 4,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 43
+          },
+          "end": {
+            "line": 7,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 36
+          },
+          "end": {
+            "line": 5,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 42
+          },
+          "end": {
+            "line": 5,
+            "column": 61
+          }
+        },
+        "line": 5
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 25
+          },
+          "end": {
+            "line": 8,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 41
+          },
+          "end": {
+            "line": 44,
+            "column": 1
+          }
+        },
+        "line": 8
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 45,
+            "column": 15
+          },
+          "end": {
+            "line": 45,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 45,
+            "column": 53
+          },
+          "end": {
+            "line": 82,
+            "column": 8
+          }
+        },
+        "line": 45
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 51,
+            "column": 12
+          },
+          "end": {
+            "line": 51,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 51,
+            "column": 39
+          },
+          "end": {
+            "line": 77,
+            "column": 10
+          }
+        },
+        "line": 51
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 12,
+      "2": 200,
+      "3": 12,
+      "4": 5,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 4,
+      "9": 5,
+      "10": 12,
+      "11": 36
+    },
+    "f": {
+      "0": 12,
+      "1": 200,
+      "2": 4,
+      "3": 12,
+      "4": 36
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/components/mainPage/CurrentlyReading.jsx"
+      ],
+      "mappings": "AAeM;AAfN,SAAS,YAAY;AACrB,OAAO;AAEP,MAAM,kBAAkB,CAAC,QAAQ,UAAU;AACzC,QAAM,WAAW,CAAC,GAAG,MAAM,EAAE,KAAK,MAAM,MAAM,KAAK,OAAO,CAAC;AAC3D,SAAO,SAAS,MAAM,GAAG,KAAK;AAChC;AAEA,MAAM,mBAAmB,CAAC,EAAE,OAAO,MAAM;AACvC,QAAM,QAAQ,gBAAgB,QAAQ,CAAC;AACvC,QAAM,SAAS,gBAAgB,QAAQ,CAAC;AACxC,QAAM,QAAQ,gBAAgB,QAAQ,CAAC;AAEvC,SACE,uBAAC,SAAI,WAAU,mBACb;AAAA,2BAAC,QAAG,6BAAJ;AAAA;AAAA;AAAA;AAAA,WAAiB;AAAA,IAEjB,uBAAC,SAAI,WAAU,qBACb;AAAA,6BAAC,UAAO,OAAM,WAAU,OAAO,SAA/B;AAAA;AAAA;AAAA;AAAA,aAAsC;AAAA,MACtC,uBAAC,UAAO,OAAM,aAAY,OAAO,UAAjC;AAAA;AAAA;AAAA;AAAA,aAAyC;AAAA,MACzC,uBAAC,UAAO,OAAM,wBAAuB,OAAO,SAA5C;AAAA;AAAA;AAAA;AAAA,aAAmD;AAAA,SAHrD;AAAA;AAAA;AAAA;AAAA,WAIA;AAAA,OAPF;AAAA;AAAA;AAAA;AAAA,SAQA;AAEJ;AAEA,MAAM,SAAS,CAAC,EAAE,OAAO,MAAM,MAC7B,uBAAC,SAAI,WAAU,kBACb;AAAA,yBAAC,QAAI,mBAAL;AAAA;AAAA;AAAA;AAAA,SAAW;AAAA,EAEV,MAAM,IAAI,CAAC,UACV,uBAAC,QAAK,IAAI,UAAU,MAAM,EAAE,IAAI,WAAU,gBACxC;AAAA,2BAAC,SAAI,KAAK,MAAM,OAAO,KAAK,MAAM,QAAlC;AAAA;AAAA;AAAA;AAAA,WAAwC;AAAA,IACxC,uBAAC,SACC;AAAA,6BAAC,OAAE,WAAU,SAAS,gBAAM,QAA5B;AAAA;AAAA;AAAA;AAAA,aAAiC;AAAA,MACjC,uBAAC,OAAE,WAAU,WAAW,gBAAM,WAA9B;AAAA;AAAA;AAAA;AAAA,aAAsC;AAAA,SAFxC;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,OAL4D,MAAM,IAApE;AAAA;AAAA;AAAA;AAAA,SAMA,CACD;AAAA,KAXH;AAAA;AAAA;AAAA;AAAA,OAYA;AAGF,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "aad1c1165eddd5ff9b15fd0877644576b1f016d5"
+  },
+  "C:/dev/storycat/src/layout/Header.jsx": {
+    "path": "C:/dev/storycat/src/layout/Header.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 15
+        },
+        "end": {
+          "line": 61,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 60,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 15
+          },
+          "end": {
+            "line": 7,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 21
+          },
+          "end": {
+            "line": 61,
+            "column": 1
+          }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 4,
+      "1": 9
+    },
+    "f": {
+      "0": 9
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/layout/Header.jsx"
+      ],
+      "mappings": "AAUM;AAVN,SAAS,YAAY;AACrB,OAAO;AAEP,OAAO,cAAc;AACrB,OAAO,cAAc;AACrB,OAAO,cAAc;AAErB,MAAM,SAAS,MAAM;AACnB,SACE,uBAAC,YAAO,WAAU,UAChB;AAAA,2BAAC,QAAK,IAAG,KAAI,WAAU,QAAO,wBAA9B;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IAEA,uBAAC,SAAI,WAAU,OACb;AAAA,6BAAC,QAAK,IAAG,YAAW,uBAApB;AAAA;AAAA;AAAA;AAAA,aAA2B;AAAA,MAC3B,uBAAC,QAAK,IAAG,WAAU,qBAAnB;AAAA;AAAA;AAAA;AAAA,aAAwB;AAAA,MACxB,uBAAC,QAAK,IAAG,UAAS,qBAAlB;AAAA;AAAA;AAAA;AAAA,aAAuB;AAAA,SAHzB;AAAA;AAAA;AAAA;AAAA,WAIA;AAAA,IAEA,uBAAC,SAAI,WAAU,SACb;AAAA,6BAAC,SAAI,KAAK,UAAU,KAAI,cAAa,WAAU,qBAA/C;AAAA;AAAA;AAAA;AAAA,aAAiE;AAAA,MACjE,uBAAC,SAAI,KAAK,UAAU,KAAI,WAAU,WAAU,qBAA5C;AAAA;AAAA;AAAA;AAAA,aAA8D;AAAA,MAC9D,uBAAC,SAAI,KAAK,UAAU,KAAI,QAAO,WAAU,qBAAzC;AAAA;AAAA;AAAA;AAAA,aAA2D;AAAA,SAH7D;AAAA;AAAA;AAAA;AAAA,WAIA;AAAA,OAfF;AAAA;AAAA;AAAA;AAAA,SAgBA;AAEJ;AAEA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "6c7dc4bba9e5dd302d7822955d5ce5f3776429b9"
+  },
+  "C:/dev/storycat/src/api/authApi.js": {
+    "path": "C:/dev/storycat/src/api/authApi.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 25
+        },
+        "end": {
+          "line": 23,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 17
+        },
+        "end": {
+          "line": 4,
+          "column": 64
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 14
+        },
+        "end": {
+          "line": 5,
+          "column": 35
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 3
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 4
+        },
+        "end": {
+          "line": 8,
+          "column": 65
+        }
+      },
+      "5": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "end": {
+          "line": 9,
+          "column": 33
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 46
+        }
+      },
+      "8": {
+        "start": {
+          "line": 16,
+          "column": 15
+        },
+        "end": {
+          "line": 16,
+          "column": 23
+        }
+      },
+      "9": {
+        "start": {
+          "line": 18,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": 3
+        }
+      },
+      "10": {
+        "start": {
+          "line": 19,
+          "column": 4
+        },
+        "end": {
+          "line": 19,
+          "column": 38
+        }
+      },
+      "11": {
+        "start": {
+          "line": 22,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 13
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 25
+          },
+          "end": {
+            "line": 3,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 52
+          },
+          "end": {
+            "line": 23,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 2
+          },
+          "end": {
+            "line": 10,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 2
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 7
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 2
+          },
+          "end": {
+            "line": 14,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 2
+            },
+            "end": {
+              "line": 14,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 12
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 2
+          },
+          "end": {
+            "line": 20,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 18,
+              "column": 2
+            },
+            "end": {
+              "line": 20,
+              "column": 3
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 18
+      }
+    },
+    "s": {
+      "0": 5,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/api/authApi.js"
+      ],
+      "names": [],
+      "mappings": "AAAA,MAAM,CAAC,QAAQ,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC;AAChC;AACA,MAAM,CAAC,KAAK,CAAC,SAAS,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,KAAK,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrD,CAAC,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAC,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC;AAChE,CAAC,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC,CAAC,KAAK,CAAC,QAAQ,CAAC,IAAI,CAAC,CAAC;AACnC;AACA,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,KAAK,CAAC,MAAM,CAAC,CAAC,CAAC;AACtB,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,KAAK,CAAC,QAAQ,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC;AACjE,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,KAAK,CAAC,QAAQ,CAAC,IAAI,CAAC,CAAC;AACjC,CAAC,CAAC,CAAC;AACH;AACA,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,KAAK,CAAC,MAAM,CAAC,CAAC,CAAC;AACtB,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9C,CAAC,CAAC,CAAC;AACH;AACA,CAAC,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC;AACvB;AACA,CAAC,CAAC,EAAE,CAAC,CAAC,IAAI,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC;AACnC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtC,CAAC,CAAC,CAAC;AACH;AACA,CAAC,CAAC,MAAM,CAAC,IAAI;AACb,CAAC;"
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "bffe32bf0508281277903f0ff639370af24449ee"
+  },
+  "C:/dev/storycat/src/hooks/useAuth.js": {
+    "path": "C:/dev/storycat/src/hooks/useAuth.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 16
+        },
+        "end": {
+          "line": 27,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 32
+        },
+        "end": {
+          "line": 5,
+          "column": 47
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 28
+        },
+        "end": {
+          "line": 6,
+          "column": 42
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 16
+        },
+        "end": {
+          "line": 24,
+          "column": 3
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 5
+        }
+      },
+      "5": {
+        "start": {
+          "line": 10,
+          "column": 6
+        },
+        "end": {
+          "line": 10,
+          "column": 22
+        }
+      },
+      "6": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 11,
+          "column": 20
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 19
+        },
+        "end": {
+          "line": 13,
+          "column": 51
+        }
+      },
+      "8": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 56
+        }
+      },
+      "9": {
+        "start": {
+          "line": 17,
+          "column": 6
+        },
+        "end": {
+          "line": 17,
+          "column": 17
+        }
+      },
+      "10": {
+        "start": {
+          "line": 19,
+          "column": 6
+        },
+        "end": {
+          "line": 19,
+          "column": 27
+        }
+      },
+      "11": {
+        "start": {
+          "line": 20,
+          "column": 6
+        },
+        "end": {
+          "line": 20,
+          "column": 15
+        }
+      },
+      "12": {
+        "start": {
+          "line": 22,
+          "column": 6
+        },
+        "end": {
+          "line": 22,
+          "column": 23
+        }
+      },
+      "13": {
+        "start": {
+          "line": 26,
+          "column": 2
+        },
+        "end": {
+          "line": 26,
+          "column": 34
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 16
+          },
+          "end": {
+            "line": 4,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 22
+          },
+          "end": {
+            "line": 27,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 16
+          },
+          "end": {
+            "line": 8,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 43
+          },
+          "end": {
+            "line": 24,
+            "column": 3
+          }
+        },
+        "line": 8
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 89,
+      "2": 89,
+      "3": 89,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 89
+    },
+    "f": {
+      "0": 89,
+      "1": 0
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/hooks/useAuth.js"
+      ],
+      "names": [],
+      "mappings": "AAAA,MAAM,CAAC,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,KAAK,CAAC;AAChC,MAAM,CAAC,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,OAAO,CAAC;AAC1C;AACA,KAAK,CAAC,OAAO,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACvB,CAAC,CAAC,KAAK,CAAC,CAAC,OAAO,CAAC,CAAC,UAAU,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,KAAK,CAAC;AAC/C,CAAC,CAAC,KAAK,CAAC,CAAC,KAAK,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,IAAI,CAAC;AAC1C;AACA,CAAC,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,KAAK,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC5C,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC;AACT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,UAAU,CAAC,IAAI,CAAC;AACtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,IAAI,CAAC;AACpB;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,SAAS,CAAC,KAAK,CAAC,CAAC,QAAQ,CAAC;AACnD;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,YAAY,CAAC,OAAO,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,IAAI,CAAC,SAAS,CAAC,IAAI,CAAC,CAAC;AACxD;AACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC,IAAI;AACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,GAAG,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,GAAG,CAAC,OAAO,CAAC;AAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,GAAG;AACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,CAAC;AACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,UAAU,CAAC,KAAK,CAAC;AACvB,CAAC,CAAC,CAAC,CAAC,CAAC;AACL,CAAC,CAAC,CAAC;AACH;AACA,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,OAAO,CAAC,CAAC,KAAK,CAAC,CAAC;AAClC,CAAC;AACD;AACA,MAAM,CAAC,OAAO,CAAC,OAAO;"
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8faf3ecf77185caac6ea342e7de180cbb2a10346"
+  },
+  "C:/dev/storycat/src/pages/LoginPage.jsx": {
+    "path": "C:/dev/storycat/src/pages/LoginPage.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 18
+        },
+        "end": {
+          "line": 87,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 15
+        },
+        "end": {
+          "line": 7,
+          "column": 40
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 36
+        },
+        "end": {
+          "line": 8,
+          "column": 40
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 28
+        },
+        "end": {
+          "line": 9,
+          "column": 40
+        }
+      },
+      "4": {
+        "start": {
+          "line": 10,
+          "column": 34
+        },
+        "end": {
+          "line": 10,
+          "column": 46
+        }
+      },
+      "5": {
+        "start": {
+          "line": 11,
+          "column": 19
+        },
+        "end": {
+          "line": 11,
+          "column": 32
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 23
+        },
+        "end": {
+          "line": 19,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 23
+        }
+      },
+      "8": {
+        "start": {
+          "line": 14,
+          "column": 4
+        },
+        "end": {
+          "line": 18,
+          "column": 5
+        }
+      },
+      "9": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 35
+        }
+      },
+      "10": {
+        "start": {
+          "line": 16,
+          "column": 6
+        },
+        "end": {
+          "line": 16,
+          "column": 20
+        }
+      },
+      "11": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 86,
+          "column": 11
+        }
+      },
+      "12": {
+        "start": {
+          "line": 34,
+          "column": 27
+        },
+        "end": {
+          "line": 34,
+          "column": 51
+        }
+      },
+      "13": {
+        "start": {
+          "line": 52,
+          "column": 27
+        },
+        "end": {
+          "line": 52,
+          "column": 54
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 18
+          },
+          "end": {
+            "line": 6,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 40
+          },
+          "end": {
+            "line": 87,
+            "column": 1
+          }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 23
+          },
+          "end": {
+            "line": 12,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 36
+          },
+          "end": {
+            "line": 19,
+            "column": 3
+          }
+        },
+        "line": 12
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 34,
+            "column": 20
+          },
+          "end": {
+            "line": 34,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 27
+          },
+          "end": {
+            "line": 34,
+            "column": 51
+          }
+        },
+        "line": 34
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 52,
+            "column": 20
+          },
+          "end": {
+            "line": 52,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 52,
+            "column": 27
+          },
+          "end": {
+            "line": 52,
+            "column": 54
+          }
+        },
+        "line": 52
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 15
+          },
+          "end": {
+            "line": 7,
+            "column": 40
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 15
+            },
+            "end": {
+              "line": 7,
+              "column": 27
+            }
+          },
+          {
+            "start": {
+              "line": 7,
+              "column": 31
+            },
+            "end": {
+              "line": 7,
+              "column": 40
+            }
+          }
+        ],
+        "line": 7
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 63,
+            "column": 6
+          },
+          "end": {
+            "line": 67,
+            "column": 14
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 63,
+              "column": 6
+            },
+            "end": {
+              "line": 63,
+              "column": 11
+            }
+          },
+          {
+            "start": {
+              "line": 63,
+              "column": 31
+            },
+            "end": {
+              "line": 67,
+              "column": 14
+            }
+          }
+        ],
+        "line": 63
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 68,
+            "column": 97
+          },
+          "end": {
+            "line": 68,
+            "column": 135
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 68,
+              "column": 107
+            },
+            "end": {
+              "line": 68,
+              "column": 124
+            }
+          },
+          {
+            "start": {
+              "line": 68,
+              "column": 127
+            },
+            "end": {
+              "line": 68,
+              "column": 135
+            }
+          }
+        ],
+        "line": 68
+      }
+    },
+    "s": {
+      "0": 5,
+      "1": 94,
+      "2": 94,
+      "3": 94,
+      "4": 94,
+      "5": 94,
+      "6": 94,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 94,
+      "12": 56,
+      "13": 24
+    },
+    "f": {
+      "0": 94,
+      "1": 0,
+      "2": 56,
+      "3": 24
+    },
+    "b": {
+      "0": [
+        94,
+        89
+      ],
+      "1": [
+        94,
+        2
+      ],
+      "2": [
+        3,
+        91
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/pages/LoginPage.jsx"
+      ],
+      "mappings": "AA4BQ;AA5BR,SAAS,gBAAgB;AACzB,SAAS,mBAAmB;AAC5B,OAAO,aAAa;AACpB,OAAO;AAEP,MAAM,YAAY,CAAC,EAAE,aAAa,MAAM;AACtC,QAAM,OAAO,gBAAgB,QAAQ;AACrC,QAAM,EAAE,OAAO,SAAS,MAAM,IAAI;AAElC,QAAM,CAAC,OAAO,QAAQ,IAAI,SAAS,EAAE;AACrC,QAAM,CAAC,UAAU,WAAW,IAAI,SAAS,EAAE;AAE3C,QAAM,WAAW,YAAY;AAE7B,QAAM,eAAe,OAAO,MAAM;AAChC,MAAE,eAAe;AAEjB,QAAI;AACF,YAAM,MAAM,OAAO,QAAQ;AAC3B,eAAS,GAAG;AAAA,IACd,QAAQ;AAAA,IAER;AAAA,EACF;AAEA,SACE,uBAAC,SAAI,WAAU,iBACb,iCAAC,SAAI,WAAU,cACb;AAAA,2BAAC,QAAG,2BAAJ;AAAA;AAAA;AAAA;AAAA,WAAe;AAAA,IAEf,uBAAC,UAAK,UAAU,cACd;AAAA;AAAA,QAAC;AAAA;AAAA,UACC,MAAK;AAAA,UACL,aAAY;AAAA,UACZ,WAAU;AAAA,UACV,OAAO;AAAA,UACP,UAAU,CAAC,MAAM,SAAS,EAAE,OAAO,KAAK;AAAA;AAAA,QAL1C;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAMA;AAAA,MAEA;AAAA,QAAC;AAAA;AAAA,UACC,MAAK;AAAA,UACL,aAAY;AAAA,UACZ,WAAU;AAAA,UACV,OAAO;AAAA,UACP,UAAU,CAAC,MAAM,YAAY,EAAE,OAAO,KAAK;AAAA;AAAA,QAL7C;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,MAMA;AAAA,MAEC,SAAS,uBAAC,OAAE,OAAO,EAAE,OAAO,MAAM,GAAI,mBAA7B;AAAA;AAAA;AAAA;AAAA,aAAmC;AAAA,MAE7C,uBAAC,YAAO,WAAU,gBAAe,UAAU,SACxC,oBAAU,oBAAoB,YADjC;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,SArBF;AAAA;AAAA;AAAA;AAAA,WAsBA;AAAA,OAzBF;AAAA;AAAA;AAAA;AAAA,SA0BA,KA3BF;AAAA;AAAA;AAAA;AAAA,SA4BA;AAEJ;AAEA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "1f1246217a9f9d0f07e24ef1d88efed13035f16e"
+  },
+  "C:/dev/storycat/src/components/mainPage/NovelRow.jsx": {
+    "path": "C:/dev/storycat/src/components/mainPage/NovelRow.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 17
+        },
+        "end": {
+          "line": 30,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 24
+        },
+        "end": {
+          "line": 5,
+          "column": 42
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 29,
+          "column": 11
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 192
+        },
+        "end": {
+          "line": 21,
+          "column": 10
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 17
+          },
+          "end": {
+            "line": 4,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 33
+          },
+          "end": {
+            "line": 30,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 165
+          },
+          "end": {
+            "line": 6,
+            "column": 166
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 192
+          },
+          "end": {
+            "line": 21,
+            "column": 10
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 4,
+      "2": 4,
+      "3": 32
+    },
+    "f": {
+      "0": 4,
+      "1": 32
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/components/mainPage/NovelRow.jsx"
+      ],
+      "mappings": "AAWY;AAXZ,SAAS,YAAY;AACrB,OAAO;AAEP,MAAM,WAAW,CAAC,EAAE,OAAO,MAAM;AAC/B,QAAM,gBAAgB,OAAO,MAAM,GAAG,CAAC;AAEvC,SACE,uBAAC,SAAI,WAAU,eACb,iCAAC,SAAI,WAAU,iBACZ,wBAAc,IAAI,CAAC,UAClB,uBAAC,QAAK,IAAI,UAAU,MAAM,EAAE,IAAI,WAAU,cACxC;AAAA,2BAAC,SAAI,KAAK,MAAM,OAAO,KAAK,MAAM,QAAlC;AAAA;AAAA;AAAA;AAAA,WAAwC;AAAA,IACxC,uBAAC,OAAG,gBAAM,QAAV;AAAA;AAAA;AAAA;AAAA,WAAe;AAAA,OAF2C,MAAM,IAAlE;AAAA;AAAA;AAAA;AAAA,SAGA,CACD,KANH;AAAA;AAAA;AAAA;AAAA,SAOA,KARF;AAAA;AAAA;AAAA;AAAA,SASA;AAEJ;AAEA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "9492df3b37e92ffc0704e5b603e6861d8f431367"
+  },
+  "C:/dev/storycat/src/pages/MainPage.jsx": {
+    "path": "C:/dev/storycat/src/pages/MainPage.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 17
+        },
+        "end": {
+          "line": 29,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 15
+        },
+        "end": {
+          "line": 6,
+          "column": 44
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 30
+        },
+        "end": {
+          "line": 7,
+          "column": 34
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 11
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 15
+        },
+        "end": {
+          "line": 12,
+          "column": 11
+        }
+      },
+      "5": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 28,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 17
+          },
+          "end": {
+            "line": 5,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 41
+          },
+          "end": {
+            "line": 29,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 15
+          },
+          "end": {
+            "line": 6,
+            "column": 44
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 15
+            },
+            "end": {
+              "line": 6,
+              "column": 29
+            }
+          },
+          {
+            "start": {
+              "line": 6,
+              "column": 33
+            },
+            "end": {
+              "line": 6,
+              "column": 44
+            }
+          }
+        ],
+        "line": 6
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 2
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 8,
+              "column": 2
+            },
+            "end": {
+              "line": 12,
+              "column": 11
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 8
+      }
+    },
+    "s": {
+      "0": 3,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 3,
+      "5": 2
+    },
+    "f": {
+      "0": 5
+    },
+    "b": {
+      "0": [
+        5,
+        0
+      ],
+      "1": [
+        3,
+        2
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/pages/MainPage.jsx"
+      ],
+      "mappings": "AAQsB;AARtB,OAAO,eAAe;AACtB,OAAO,cAAc;AACrB,OAAO,sBAAsB;AAE7B,MAAM,WAAW,CAAC,EAAE,eAAe,MAAM;AACvC,QAAM,OAAO,kBAAkB,UAAU;AACzC,QAAM,EAAE,QAAQ,QAAQ,IAAI;AAE5B,MAAI,QAAS,QAAO,uBAAC,SAAI,0BAAL;AAAA;AAAA;AAAA;AAAA,SAAe;AAEnC,SACE,uBAAC,SACC;AAAA,2BAAC,YAAS,UAAV;AAAA;AAAA;AAAA;AAAA,WAA0B;AAAA,IAC1B,uBAAC,oBAAiB,UAAlB;AAAA;AAAA;AAAA;AAAA,WAAkC;AAAA,OAFpC;AAAA;AAAA;AAAA;AAAA,SAGA;AAEJ;AAEA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "1462da19cd0b794ed73edf9f92519a9a361368db"
+  },
+  "C:/dev/storycat/src/hooks/useNovel.js": {
+    "path": "C:/dev/storycat/src/hooks/useNovel.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 17
+        },
+        "end": {
+          "line": 25,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 28
+        },
+        "end": {
+          "line": 5,
+          "column": 42
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 32
+        },
+        "end": {
+          "line": 6,
+          "column": 46
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 28
+        },
+        "end": {
+          "line": 7,
+          "column": 42
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 10
+        }
+      },
+      "5": {
+        "start": {
+          "line": 10,
+          "column": 17
+        },
+        "end": {
+          "line": 19,
+          "column": 5
+        }
+      },
+      "6": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 7
+        }
+      },
+      "7": {
+        "start": {
+          "line": 12,
+          "column": 21
+        },
+        "end": {
+          "line": 12,
+          "column": 43
+        }
+      },
+      "8": {
+        "start": {
+          "line": 13,
+          "column": 8
+        },
+        "end": {
+          "line": 13,
+          "column": 22
+        }
+      },
+      "9": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 29
+        }
+      },
+      "10": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 25
+        }
+      },
+      "11": {
+        "start": {
+          "line": 21,
+          "column": 4
+        },
+        "end": {
+          "line": 21,
+          "column": 10
+        }
+      },
+      "12": {
+        "start": {
+          "line": 24,
+          "column": 2
+        },
+        "end": {
+          "line": 24,
+          "column": 34
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 17
+          },
+          "end": {
+            "line": 4,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 25
+          },
+          "end": {
+            "line": 25,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 12
+          },
+          "end": {
+            "line": 9,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 18
+          },
+          "end": {
+            "line": 22,
+            "column": 3
+          }
+        },
+        "line": 9
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 17
+          },
+          "end": {
+            "line": 10,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 29
+          },
+          "end": {
+            "line": 19,
+            "column": 5
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 4,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/hooks/useNovel.js"
+      ],
+      "names": [],
+      "mappings": "AAAA,MAAM,CAAC,CAAC,CAAC,SAAS,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,KAAK,CAAC;AAC3C,MAAM,CAAC,CAAC,CAAC,YAAY,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,SAAS,CAAC;AAC/C;AACA,KAAK,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1B,CAAC,CAAC,KAAK,CAAC,CAAC,KAAK,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,IAAI,CAAC;AAC1C,CAAC,CAAC,KAAK,CAAC,CAAC,OAAO,CAAC,CAAC,UAAU,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,IAAI,CAAC;AAC9C,CAAC,CAAC,KAAK,CAAC,CAAC,KAAK,CAAC,CAAC,QAAQ,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,IAAI,CAAC;AAC1C;AACA,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnB,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC;AACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC,CAAC,KAAK,CAAC,YAAY,CAAC,EAAE,CAAC;AAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,IAAI,CAAC;AACtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,GAAG,CAAC,CAAC,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,QAAQ,CAAC,GAAG,CAAC,OAAO,CAAC;AAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,CAAC;AACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,UAAU,CAAC,KAAK,CAAC;AACzB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACP,CAAC,CAAC,CAAC,CAAC,CAAC;AACL;AACA,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC;AACV;AACA,CAAC,CAAC,MAAM,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC,OAAO,CAAC,CAAC,KAAK,CAAC,CAAC;AAClC,CAAC;AACD;AACA,MAAM,CAAC,OAAO,CAAC,QAAQ;"
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "008a950e0f0d1d69081ab77c0e84c895849d7f03"
+  },
+  "C:/dev/storycat/src/pages/NovelPage.jsx": {
+    "path": "C:/dev/storycat/src/pages/NovelPage.jsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 142,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 17
+        },
+        "end": {
+          "line": 6,
+          "column": 28
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 36
+        },
+        "end": {
+          "line": 7,
+          "column": 65
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 11
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 15
+        },
+        "end": {
+          "line": 12,
+          "column": 11
+        }
+      },
+      "5": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 17,
+          "column": 11
+        }
+      },
+      "6": {
+        "start": {
+          "line": 13,
+          "column": 13
+        },
+        "end": {
+          "line": 17,
+          "column": 11
+        }
+      },
+      "7": {
+        "start": {
+          "line": 18,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 11
+        }
+      },
+      "8": {
+        "start": {
+          "line": 18,
+          "column": 14
+        },
+        "end": {
+          "line": 22,
+          "column": 11
+        }
+      },
+      "9": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 141,
+          "column": 11
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 18
+          },
+          "end": {
+            "line": 5,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 41
+          },
+          "end": {
+            "line": 142,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 36
+          },
+          "end": {
+            "line": 7,
+            "column": 65
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 36
+            },
+            "end": {
+              "line": 7,
+              "column": 49
+            }
+          },
+          {
+            "start": {
+              "line": 7,
+              "column": 53
+            },
+            "end": {
+              "line": 7,
+              "column": 65
+            }
+          }
+        ],
+        "line": 7
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 2
+          },
+          "end": {
+            "line": 12,
+            "column": 11
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 8,
+              "column": 2
+            },
+            "end": {
+              "line": 12,
+              "column": 11
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 8
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 2
+          },
+          "end": {
+            "line": 17,
+            "column": 11
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 13,
+              "column": 2
+            },
+            "end": {
+              "line": 17,
+              "column": 11
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 13
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 2
+          },
+          "end": {
+            "line": 22,
+            "column": 11
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 18,
+              "column": 2
+            },
+            "end": {
+              "line": 22,
+              "column": 11
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 18
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 9,
+      "2": 9,
+      "3": 9,
+      "4": 4,
+      "5": 5,
+      "6": 3,
+      "7": 2,
+      "8": 0,
+      "9": 2
+    },
+    "f": {
+      "0": 9
+    },
+    "b": {
+      "0": [
+        9,
+        0
+      ],
+      "1": [
+        4,
+        5
+      ],
+      "2": [
+        3,
+        2
+      ],
+      "3": [
+        0,
+        2
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "C:/dev/storycat/src/pages/NovelPage.jsx"
+      ],
+      "mappings": "AAQsB;AARtB,SAAS,iBAAiB;AAC1B,OAAO,cAAc;AACrB,OAAO;AAEP,MAAM,YAAY,CAAC,EAAE,cAAc,MAAM;AACvC,QAAM,EAAE,GAAG,IAAI,UAAU;AACzB,QAAM,EAAE,OAAO,SAAS,MAAM,IAAI,iBAAiB,SAAS,EAAE;AAE9D,MAAI,QAAS,QAAO,uBAAC,SAAI,0BAAL;AAAA;AAAA;AAAA;AAAA,SAAe;AACnC,MAAI,MAAO,QAAO,uBAAC,SAAK,mBAAN;AAAA;AAAA;AAAA;AAAA,SAAY;AAC9B,MAAI,CAAC,MAAO,QAAO,uBAAC,SAAI,kCAAL;AAAA;AAAA;AAAA;AAAA,SAAuB;AAE1C,SACE,uBAAC,SAAI,WAAU,iBACb;AAAA,2BAAC,QAAI,gBAAM,QAAX;AAAA;AAAA;AAAA;AAAA,WAAgB;AAAA,IAEhB,uBAAC,SAAI,WAAU,iBACb;AAAA,6BAAC,SAAI,KAAK,MAAM,OAAO,KAAK,MAAM,QAAlC;AAAA;AAAA;AAAA;AAAA,aAAwC;AAAA,MAExC,uBAAC,SAAI,WAAU,cACb;AAAA,+BAAC,OACC;AAAA,iCAAC,OAAE,sBAAH;AAAA;AAAA;AAAA;AAAA,iBAAS;AAAA,UAAI;AAAA,UAAE,MAAM;AAAA,aADvB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QACA,uBAAC,OACC;AAAA,iCAAC,OAAE,uBAAH;AAAA;AAAA;AAAA;AAAA,iBAAU;AAAA,UAAI;AAAA,UAAE,MAAM;AAAA,aADxB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QACA,uBAAC,OACC;AAAA,iCAAC,OAAE,sBAAH;AAAA;AAAA;AAAA;AAAA,iBAAS;AAAA,UAAI;AAAA,UAAE,MAAM;AAAA,aADvB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QACA,uBAAC,OACC;AAAA,iCAAC,OAAE,qBAAH;AAAA;AAAA;AAAA;AAAA,iBAAQ;AAAA,UAAI;AAAA,UAAE,MAAM;AAAA,aADtB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QACA,uBAAC,OACC;AAAA,iCAAC,OAAE,kCAAH;AAAA;AAAA;AAAA;AAAA,iBAAqB;AAAA,UAAI;AAAA,UAAE,MAAM;AAAA,aADnC;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QACA,uBAAC,OACC;AAAA,iCAAC,OAAE,kCAAH;AAAA;AAAA;AAAA;AAAA,iBAAqB;AAAA,UAAI;AAAA,UAAE,MAAM;AAAA,aADnC;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,QACA,uBAAC,OACC;AAAA,iCAAC,OAAE,qBAAH;AAAA;AAAA;AAAA;AAAA,iBAAQ;AAAA,UAAI;AAAA,UAAE,MAAM;AAAA,aADtB;AAAA;AAAA;AAAA;AAAA,eAEA;AAAA,WArBF;AAAA;AAAA;AAAA;AAAA,aAsBA;AAAA,SAzBF;AAAA;AAAA;AAAA;AAAA,WA0BA;AAAA,OA7BF;AAAA;AAAA;AAAA;AAAA,SA8BA;AAEJ;AAEA,eAAe;",
+      "names": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "b7c97ae1f4e72ebde67e24a8582e81a2668762e4"
+  }
+}
