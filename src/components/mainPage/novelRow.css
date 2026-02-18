@@ -1,0 +1,37 @@
+.row-wrapper {
+  margin: 40px 145px;
+}
+
+.row-container {
+  width: 1190px;
+  height: 250px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 30px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.novel-card {
+  width: 125px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.novel-card img {
+  width: 125px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.novel-card p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}

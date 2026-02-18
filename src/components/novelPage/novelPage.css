@@ -1,0 +1,31 @@
+.novel-wrapper {
+  width: 1182px;
+  min-height: 771px;
+  margin: 60px auto;
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.novel-wrapper h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.novel-content {
+  display: flex;
+  gap: 40px;
+}
+
+.novel-content img {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.novel-info {
+  font-size: 24px;
+  line-height: 1.6;
+}
