@@ -1,11 +1,13 @@
 import { useParams } from 'react-router-dom'
-import novels from '../data/novels'
+import useNovel from '../hooks/useNovel'
 import '../components/novelPage/novelPage.css'
 
 const NovelPage = () => {
   const { id } = useParams()
-  const novel = novels.find((n) => n.id === Number(id))
+  const { novel, loading, error } = useNovel(id)
 
+  if (loading) return <div>Loading...</div>
+  if (error) return <div>{error}</div>
   if (!novel) return <div>Новела не знайдена</div>
 
   return (

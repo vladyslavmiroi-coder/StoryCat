@@ -1,23 +1,21 @@
 import BASE_URL from './baseApi'
-import mockNovels from './mockNovels'
 
 export const getNovels = async () => {
-  try {
-    const response = await fetch(`${BASE_URL}/novels`)
+  const response = await fetch(`${BASE_URL}/novels`)
 
-    if (!response.ok) {
-      throw new Error('Server error')
-    }
-
-    const data = await response.json()
-
-    if (!data || data.length === 0) {
-      return mockNovels
-    }
-
-    return data
-  } catch (error) {
-    console.log('Using fallback data:', error.message)
-    return mockNovels
+  if (!response.ok) {
+    throw new Error('Failed to fetch novels')
   }
+
+  return await response.json()
+}
+
+export const getNovelById = async (id) => {
+  const response = await fetch(`${BASE_URL}/novels/${id}`)
+
+  if (!response.ok) {
+    throw new Error('Novel not found')
+  }
+
+  return await response.json()
 }
