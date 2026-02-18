@@ -1,11 +1,14 @@
-import { defineConfig } from "cypress";
+import { defineConfig } from 'cypress'
 
 export default defineConfig({
-  allowCypressEnv: false,
-
-  e2e: {
+  component: {
+    devServer: {
+      framework: 'react',
+      bundler: 'vite',
+    },
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      require('@cypress/code-coverage/task')(on, config)
+      return config
     },
   },
-});
+})

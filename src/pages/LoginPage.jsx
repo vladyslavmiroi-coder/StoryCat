@@ -3,11 +3,13 @@ import { useNavigate } from 'react-router-dom'
 import useAuth from '../hooks/useAuth'
 import './login.css'
 
-const LoginPage = () => {
+const LoginPage = ({ authOverride }) => {
+  const auth = authOverride || useAuth()
+  const { login, loading, error } = auth
+
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  const { login, loading, error } = useAuth()
   const navigate = useNavigate()
 
   const handleSubmit = async (e) => {
